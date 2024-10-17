@@ -1,0 +1,109 @@
+/* To Do
+    Add image class
+    make buttons functional
+*/
+body {
+  background-color: rgb(33, 37, 41);
+
+}
+.centerText {
+  display: flex;
+  justify-content: center;
+}
+/* ----------------------------Tittle Page ---------------------*/ 
+h1 {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  height: 70px;
+  background-color: rgba(7, 7, 7, 0.301);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.centerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.startGameButton { 
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.37);
+  border-radius: 10px;
+}
+/* -------------------------- Game buttons and text Page --------------------*/
+.buttonOptions {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.37);
+  border-radius: 10px;
+}
+#buttonContainer {
+    display: flex;
+    margin-top: 425px;
+    justify-content: space-around;
+}
+/* Story Text */
+p {  
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 55px;
+  margin-top: 150px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.37);
+  border-radius: 10px;
+}
+/* ------------------------------- End Screen ------------------------------*/
+.replayButtonContainer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .replayButton { 
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;
+    margin-right:  300px;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bordertest {
+  width: 100px;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+} */
+
+/* .picSize
+{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+} */
